@@ -7,6 +7,8 @@ import AnswerForm from "@/components/questions/AnswerForm";
 import { BookmarkButton } from "@/components/questions/BookmarkButton";
 import { VoteButton } from "@/components/questions/VoteButton";
 
+export const dynamic = "force-dynamic";
+
 export default async function QuestionDetailPage({
   params,
 }: {

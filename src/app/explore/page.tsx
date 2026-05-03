@@ -5,6 +5,8 @@ import { Compass, Hash, ArrowRight, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 
+export const dynamic = "force-dynamic";
+
 export default async function ExplorePage() {
   const supabase = await createClient();
 

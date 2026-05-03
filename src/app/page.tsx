@@ -6,6 +6,8 @@ import { getAvatarUrl } from "@/lib/utils";
 import { Zap, Clock, HelpCircle, MessageSquare, ArrowRight, Star, TrendingUp } from "lucide-react";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 type Filter = "trending" | "latest" | "unanswered";
 
 interface Question {

@@ -2,6 +2,8 @@ import Link from "next/link";
 import { Hash, ArrowLeft } from "lucide-react";
 import { GlassCard } from "@/components/ui/GlassCard";
 
+export const dynamic = "force-dynamic";
+
 export default async function TagPage({
   params,
 }: {
